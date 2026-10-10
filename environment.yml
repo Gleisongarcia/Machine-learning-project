@@ -1,0 +1,12 @@
+
+name: projectmolecules
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - jupyter
+  - ipykernel
+  - pip:
+      - PyTDC==1.1.15
+      - setuptools==80.9.0
