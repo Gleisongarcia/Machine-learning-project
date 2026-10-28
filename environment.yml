@@ -3,7 +3,7 @@ name: cyp2c19-ml
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - python=3.11.17
   - pip
   - jupyter
   - ipykernel
