@@ -1,12 +1,18 @@
 
-name: cyp2c19-ml
+name: smilesproject
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - python=3.11.17
   - pip
   - jupyter
   - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - rdkit
   - pip:
       - PyTDC==1.1.15
       - setuptools==80.9.0
+
